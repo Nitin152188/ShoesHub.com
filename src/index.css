@@ -8,10 +8,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .btn {
-    padding: 5px 6px;
+    padding: 4px 5px;
     background-color: #2874f0;
     color: white;
     border: 2px solid white;
@@ -25,7 +26,7 @@
     color: white;
     cursor: pointer;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     border-radius: 10px;
     padding: 2px 5px;
     margin-bottom: 5px;
@@ -34,22 +35,27 @@
 .shop-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    gap: 0.5rem;
     background-color: #e2e7e6;
     padding-bottom: 2rem;
     text-align: center;
+    justify-content: flex-start;
+    margin: 0px 10px 0px 10px;
 }
 
 .box {
-    height: 300;
-    width: 23%;
+
     background-color: white;
     padding: 20px 0px 15px;
-    margin-top: 15px;
+    margin: 15px 5px;
+}
+.shop-section h2{
+    font-size: 1rem;
 }
 
 .box-content {
     margin: 0rem 1rem;
+    width: 100px;
 }
 
 .box-content p {
@@ -57,11 +63,12 @@
 }
 
 .box-image {
-    height: 100px;
+    aspect-ratio: 1.2/1;
+    height: 90px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: 2rem;
-     margin-bottom: 1rem; 
+    margin-top: 1rem; 
+ 
 }
 
 .box:hover {
@@ -69,24 +76,14 @@
     box-shadow: 0px 0px 5px black;
 }
 
-    @media(max-width:650px) {
-        .btn {
-            padding: 1px 3px;
-        }
-        .shop-section {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .box {
-            width: 48%;
-        }
-    }
 
     @media(max-width:400px) {
-
+        .shop-section{
+            flex-wrap: wrap;
+        }
         .box {
-            width: 96%;
+            width:80vw;
+            margin: 10px 10px;
         }
     }
 
