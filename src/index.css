@@ -37,17 +37,14 @@
     flex-wrap: wrap;
     gap: 0.5rem;
     background-color: #e2e7e6;
-    padding-bottom: 2rem;
+    padding:1rem 0.5rem 2rem 0.5rem;
     text-align: center;
-    justify-content: flex-start;
-    margin: 0px 10px 0px 10px;
+    justify-content: space-around;
 }
 
 .box {
-
     background-color: white;
-    padding: 20px 0px 15px;
-    margin: 15px 5px;
+    padding-top: 10px;
 }
 .shop-section h2{
     font-size: 1rem;
