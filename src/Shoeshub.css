@@ -182,7 +182,6 @@ main {
 
 footer{
   width: 100%;
-  padding: 1rem;
   background:linear-gradient(90deg, rgb(27, 142, 152) ,rgba(56, 12, 121, 0.412),rgb(14, 34, 210));
 }
 .footer-start{
@@ -195,6 +194,7 @@ footer{
 ;
 }
 .footer-about{
+  margin-left: 1.5rem;
   padding: 1rem;
   flex-direction: column;
   color: rgba(255, 255, 255, 0.668);
@@ -219,6 +219,7 @@ footer{
   text-align:left;
   font-weight: 700;
   padding: 1rem 1rem;
+  margin-left: 1.5rem;
 
 }
 
@@ -233,6 +234,7 @@ footer{
   padding: 0.6rem;
   color: rgba(255, 255, 255, 0.668);
 }
+
 .footer-link ul li:hover , .community ul li:hover{
   color: rgba(255, 255, 255, 0.935);
   transition: color 0.4s ease;
@@ -244,6 +246,7 @@ footer{
   align-items: center;
   text-align: left;
   padding: 1rem;
+  margin-left: 1.5rem;
 }
 .social-link h3{
   color: white;
@@ -284,7 +287,7 @@ text-decoration: none;
     height: auto;
     color: white;
     padding: 0.9rem ;
-    width: 100%;
+    width:100vw;
     border-top:2px solid rgba(255, 223, 223, 0.248);
   }
  
