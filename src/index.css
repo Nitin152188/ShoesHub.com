@@ -34,17 +34,18 @@
 
 .shop-section {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 1rem;
     background-color: #e2e7e6;
-    padding:1rem 0.5rem 2rem 0.5rem;
     text-align: center;
-    justify-content: space-around;
+    justify-content: flex-start;
+    padding: 1rem 1rem;
+    flex-wrap: wrap;
 }
 
 .box {
     background-color: white;
     padding-top: 10px;
+    width: 23%;
 }
 .shop-section h2{
     font-size: 1rem;
@@ -73,10 +74,11 @@
     box-shadow: 0px 0px 5px black;
 }
 
+    
 
     @media(max-width:400px) {
         .shop-section{
-            flex-wrap: wrap;
+            flex-wrap;
         }
         .box {
             width:80vw;
