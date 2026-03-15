@@ -128,7 +128,6 @@ header .search {
   width: 65%;
   max-width: 340px;
   background:rgb(24, 144, 160);
- 
   font-size: 1.8rem;
   font-weight: 600;
   transform: translateX(100%);
@@ -146,13 +145,15 @@ header .search {
 
 .panel .close-btn {
   align-self: flex-end;
-  font-size: 22px;
+  font-size: 2.5rem;
   background: transparent;
   color: #fff;
   border: none;
   cursor: pointer;
 }
-
+.close-btn:hover{
+  color:red ;
+}
 .panel .panel-links {
   list-style: none;
   display: flex;
