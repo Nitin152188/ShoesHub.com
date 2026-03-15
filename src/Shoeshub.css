@@ -371,7 +371,7 @@ footer a {
   }
 
   .container {
-    height: 10vh;
+    height: fit-content;
   }
 
   .footer1 h3 {
