@@ -3,6 +3,7 @@
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
  
@@ -78,6 +79,7 @@ header .search {
 
 .nav-links a:hover {
   background: rgba(255, 255, 255, 0.06);
+  transition: 0.3s ease;
 }
 
 .search {
@@ -209,18 +211,21 @@ footer{
 }
 .footer-link ,.community{
   display: flex;
+  flex-direction: column;
   height: fit-content;
-  text-align: center;
+  text-align:left;
   font-weight: 700;
   padding: 2rem 1rem;
+
 }
 
 .footer-link ul , .community ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
- list-style-type: none;  
+ list-style-type: none;
 }
+
 .footer-link ul li , .community ul li{
   padding: 0.6rem;
   color: rgba(255, 255, 255, 0.668);
@@ -234,7 +239,7 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
   padding: 1rem;
 }
 .social-link h3{
@@ -310,7 +315,9 @@ text-decoration: none;
   }
 
   .panel {
-    display: none;
+    display: flex;
+     overflow-y: auto;
+  scroll-behavior: smooth;
   }
  .footer-start{
   flex-wrap: wrap;
@@ -318,11 +325,9 @@ text-decoration: none;
   align-items: center;
   justify-content:space-around;
   gap: 20px;
-
 }
 .footer-about{
    flex: 1 1 50%;
- 
 } 
 .footer-link{
   flex:1 1 20%;
@@ -369,6 +374,16 @@ text-decoration: none;
   width: 100%;
   text-align: center;
   align-items: center;
+}
+
+.footer-link{
+  text-align: center;
+}
+.community{
+  text-align: center;
+}
+.social-link{
+   text-align: center;
 }
 
 

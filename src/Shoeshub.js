@@ -27,6 +27,6 @@ function closePanel() {
   document.body.style.overflow = "";
 }
 window.addEventListener("resize", () => {
-  if (window.innerWidth >= 769 && panel.classList.contains("open"))
+  if (window.innerWidth >= 800 && panel.classList.contains("open"))
     closePanel();
 });
