@@ -126,7 +126,7 @@ header .search {
   position: fixed;
   top: 0;
   right: 0;
-  height: 100vh;
+ min-height: 100%;
   width: 65%;
   max-width: 340px;
   background: rgb(24, 144, 160);
@@ -421,6 +421,15 @@ footer a {
     margin: 0px auto;
     text-align: center;
   }
+
+  /* Jab device mobile ho aur height kam ho */
+@media screen and (max-height: 500px) {
+  .panel {
+        max-height: 80vh; /* Screen ki height ka 80% */
+        overflow-y: auto; /* Agar content zyada ho to scroll bar dikhaye */
+        -webkit-overflow-scrolling: touch; /* iOS par smooth scrolling ke liye */
+    }
+}
 
 
 
