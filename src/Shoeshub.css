@@ -420,16 +420,16 @@ footer a {
   .social-link {
     margin: 0px auto;
     text-align: center;
-  }
+  }}
 
   /* Jab device mobile ho aur height kam ho */
-@media screen and (max-height: 500px) {
+
   .panel {
         max-height: 80vh; /* Screen ki height ka 80% */
         overflow-y: auto; /* Agar content zyada ho to scroll bar dikhaye */
         -webkit-overflow-scrolling: touch; /* iOS par smooth scrolling ke liye */
     }
-}
+
 
 
 
