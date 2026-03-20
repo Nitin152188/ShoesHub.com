@@ -75,8 +75,8 @@ header .search {
 .nav-links a {
   color: #fff;
   text-decoration: none;
-  padding: 6px 8px;
-  border-radius: 6px;
+  padding: 6px 1rem;
+  border-radius: 20px;
 }
 
 .nav-links a:hover {
