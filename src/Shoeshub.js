@@ -30,3 +30,4 @@ window.addEventListener("resize", () => {
   if (window.innerWidth >= 800 && panel.classList.contains("open"))
     closePanel();
 });
+
